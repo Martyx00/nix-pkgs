@@ -21,7 +21,7 @@ in
     mkdir -p $out/share/applications
     echo "[Desktop Entry]
     Type=Application
-    Name=Theia IDA
+    Name=Theia IDE
     Exec=$out/bin/theia
     Terminal=false
     Icon=${icon_file}" > $out/share/applications/theia.desktop
