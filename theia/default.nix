@@ -10,7 +10,7 @@ let
   };
 in
   appimageTools.wrapType2 {
-    name = "Theia";
+    name = "theia";
     version = "1.48.300";
     src = pkgs.fetchurl {
       url = "https://www.eclipse.org/downloads/download.php?file=/theia/ide/latest/linux/TheiaIDE.AppImage&r=1";
@@ -22,7 +22,7 @@ in
     echo "[Desktop Entry]
     Type=Application
     Name=Theia IDA
-    Exec=$out/bin/Theia
+    Exec=$out/bin/theia
     Terminal=false
     Icon=${icon_file}" > $out/share/applications/theia.desktop
   '';
